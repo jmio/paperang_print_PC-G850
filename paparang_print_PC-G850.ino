@@ -418,7 +418,7 @@ void printString(char *s)
 {
   int slen   = strlen(s);
   int imglen = 48;
-  for (int y=0;y<7;y++) {
+  for (int y=0;y<8;y++) {
     for (int i=0;i<imglen;i+=doubleflag) {
       if (i < slen*doubleflag) {
         if (doubleflag == 1) {
